@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: rgb(44, 44, 44); */
+  font-family: var(--main-font);
+}
+:root {
+  --accent-color: #ff6c00;
+  --main-color: #303030;
+  --second-color: rgba(157, 164, 189, 0.6);
+  --accent-font: "Raleway", sans-serif;
+  --main-font: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 680px;
+  /* padding-top: 35px; */
+}
+
+.sidebar {
+  width: 155px;
+  height: 100%;
+  background: #fff;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 40px; */
+}
+
+.hero, .sidebar {
+  padding-top: 35px;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background: url('./../img/Slider img 3.png') no-repeat;
+  background-size: cover; 
+
+
+}
+
+
+.menu-item {
+  list-style-type: none;
+}
+.menu-link,
+.phone,
+.subscribe-btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  /* font-family: var(--main-font); */
+  font-weight: 600;
+  line-height: 16px;
+  transition: color 0.3s;
+}
+.menu-link:hover,
+.phone:hover {
+  color: var(--accent-color);
+}
+.phone {
+  font-style: initial;
+}
+.subscribe-btn {
+  text-transform: uppercase;
+  border: 1px solid var(--accent-color);
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 11px 0;
+  min-width: 160px;
+  text-align: center;
+}
+
+.header {
+  width: 1030px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 55px;
+  height: 65px;
+  align-items: center;
+}
+
+
+
+.header-menu {
+  display: flex;
+
+}
+.menu-item {
+  margin-left: 40px;
+}
+.menu-item:first-child {
+  margin-left: 0;
+}
+.right-side {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+}
+.adr {
+  margin-right: 40px;
+}
+
+/* ///// */
+
+
+.container {
+  margin: 0 55px;
+}
+
+.our_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team_list {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.team_member {
+  width: 370px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.team_member:nth-child(2) {
+  margin: 0 30px;
+}
+
+
+
