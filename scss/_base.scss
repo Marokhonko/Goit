@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    // max-width: 1280px;
+    padding: 0 55px; // ! mybe cng
+    // margin: 0 auto;
+}
+
+%d-flex-row {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+@mixin btn($color) {
+    min-width: 160px;
+    border: 1px solid $accentColor;
+    border-radius: 25px;
+    color: $color;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
